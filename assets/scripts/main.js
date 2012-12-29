@@ -6,7 +6,8 @@ $("#start_button").click(function () {
     leak.init();
 });
 
-$("#destroy_button").click(function () {
+$("#destroy_button").click(function(){
+    leak.destroy();
     leak = null;
 });
 
